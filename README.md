@@ -38,6 +38,12 @@ O site substitui o site atual em Wix (ohmydogspa.ca). Ele mantém a identidade v
 └── preview/        # capturas de tela usadas neste README (não são usadas pelo site)
 ```
 
+## Demonstração
+
+Versão para o cliente testar: https://personalhugo.github.io/ohmydog/
+
+Ela é publicada pela branch `gh-pages`, que é igual à `main` com uma diferença: tem `<meta name="robots" content="noindex, nofollow">`, para o Google não indexar a demonstração no lugar do site real. **Nunca publique a `gh-pages` no domínio da loja.** Para atualizar a demonstração, faça merge da `main` na `gh-pages`.
+
 ## Rodar localmente
 
 Qualquer servidor estático serve. Com Python:
